@@ -35,7 +35,7 @@ Installation on linux varies a bit between distributions. This is because `pyper
      sudo apt install xclip
      ```
 3. Arch
-  -```Bash
+- ```Bash
    git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
    cd ./DOOMEncoder
    pip install -r ./requirements.txt
