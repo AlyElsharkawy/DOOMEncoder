@@ -19,6 +19,7 @@ Typing the `encode` or `decode` commands will then cause the program to ask for 
 ## Installation
 _Note: Make sure git and python are installed beforehand!_
 **Windows:**
+
 If you are windows, then the installation is as simple as cloning the git repository, installing the dependencies, and then running the script
 ```Bash
 git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
@@ -27,6 +28,7 @@ pip install -r .\requirements.txt
 ```
 
 **Linux**
+
 Installation on linux varies a bit between distributions. This is because `pyperclip`,the package used to copy outputs to the system clipboard, requires xclip. Xclip is not included by default.These are the install instructions for any Ubuntu/Debian, RPM, and Arch based distribution:
 1. Ubuntu/Debian
 - ```Bash
