@@ -1,0 +1,3 @@
+pyperclip
+readline
+pyreadline
