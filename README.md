@@ -32,21 +32,21 @@ pip install -r .\requirements.txt
 
 Installation on linux varies a bit between distributions. This is because `pyperclip`, the package used to copy outputs to the system clipboard, requires xclip. Xclip is not included by default. Furthermore, the `readline` module created by the GNU project must be installed. These are the install instructions for any Ubuntu/Debian, RPM, and Arch based distribution:
 1. Ubuntu/Debian
-- ```Bash
+     ```Bash
      git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
      cd ./DOOMEncoder
      pip install -r ./requirements.txt
      sudo apt install xclip libreadline-dev
      ```
 2. Fedora
-- ```Bash
+     ```Bash
      git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
      cd ./DOOMEncoder
      pip install -r ./requirements.txt
      sudo dnf install xclip readline-devel
      ```
 3. Arch
-- ```Bash
+   ```Bash
    git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
    cd ./DOOMEncoder
    sudo pacman -Sy xclip readline python-pyperclip
