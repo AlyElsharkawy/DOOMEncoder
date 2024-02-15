@@ -26,19 +26,25 @@ pip install -r .\requirements.txt
 ```
 
 **Linux**
-Installation on linux varies a bit between distributions. This is because `pyperclip`,the package used to copy outputs to the system clipboard, requires xclip. Xclip is not included by default. These are the install instructions for any Ubuntu/Debian, RPM, and Arch based distribution:
+Installation on linux varies a bit between distributions. This is because `pyperclip`,the package used to copy outputs to the system clipboard, requires xclip. Xclip is not included by default.These are the install instructions for any Ubuntu/Debian, RPM, and Arch based distribution:
 1. Ubuntu/Debian
 - ```Bash
      git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
      cd ./DOOMEncoder
-     pip install -r .\requirements.txt
+     pip install -r ./requirements.txt
      sudo apt install xclip
+     ```
+2. Fedora
+   - ```Bash
+     git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
+     cd ./DOOMEncoder
+     pip install -r ./requirements.txt
+     sudo dnf install xclip readline-devel
      ```
 3. Arch
 - ```Bash
    git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
    cd ./DOOMEncoder
-   pip install -r ./requirements.txt
-   sudo pacman -Sy xclip
+   sudo pacman -Sy xclip readline python-pyperclip
    ```
 
