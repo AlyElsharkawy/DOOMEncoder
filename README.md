@@ -36,19 +36,19 @@ Installation on linux varies a bit between distributions. This is because `pyper
      git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
      cd ./DOOMEncoder
      pip install -r ./requirements.txt
-     sudo apt install xclip libreadline-dev
+     sudo apt install xclip libreadline-dev -y
      ```
 2. Fedora
      ```Bash
      git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
      cd ./DOOMEncoder
      pip install -r ./requirements.txt
-     sudo dnf install xclip readline-devel
+     sudo dnf install xclip readline-devel -y
      ```
 3. Arch
    ```Bash
    git clone https://github.com/AlyElsharkawy/DOOMEncoder.git
    cd ./DOOMEncoder
-   sudo pacman -Sy xclip readline python-pyperclip
+   sudo pacman -Sy xclip readline python-pyperclip --noconfirm
    ```
 
