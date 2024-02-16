@@ -15,7 +15,7 @@ The program is launched by running `DOOMEncoder.py` from any terminal. The progr
 4. Quit
 
 Note: Many aliases are supported for the above. For example, typing `decrypt` has the same effect as having typed in  `decode`. A list of the command alises is below
-```bash
+```
 - decrypt
 - encrypt
 - generate hash
