@@ -38,7 +38,7 @@ doomLogo = """
                                                                                 
 """
 # Define the list of available commands
-commands = ["generate key", "generate combination", "generate hash", "encode", "encrypt", "decode", "decrypt", "exit", "back","decrypt","encrypt", "quit", "back"]
+commands = ["generate key", "generate combination", "generate hash", "encode", "encrypt", "decode", "decrypt", "exit", "back", "quit"]
 
 # Function to provide autocompletion options
 def completer(text, state):
@@ -285,7 +285,7 @@ while True:
         print("Returning to main menu")
         sleep(0.2)
         continue
-    elif userInput[0:4].lower() == "quit" or userInput[0:4].lower() == "back" or userInput[0:4] == "exit":
+    elif userInput[0:4].lower() == "quit" or userInput[0:4] == "exit":
         print("Quitting...")
         quit()
     else:
